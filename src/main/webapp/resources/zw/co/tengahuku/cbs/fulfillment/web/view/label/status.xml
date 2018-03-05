@@ -1,0 +1,16 @@
+<labelpackage name="status">
+   <label id="header">Change Work Item Status</label>
+   <label id="newstatus">New Status</label>
+   <label id="selectnewstatus">Select a New Status...</label>
+   <label id="reason">Reason</label>
+   <label id="selectreason">Select a Reason...</label>
+   <label id="comment">Comment</label>
+   <label id="confirm">Change Status</label>
+   <label id="attribute">Attribute</label>
+   <label id="selectattribute">Select an Attribute...</label>
+   <label id="failurereason">Failure Reason</label>
+   <label id="selectfailurereason">Select a Failure Reason...</label>
+   <label id="addreason">Add reason</label>
+   <label id="delete">Delete</label>
+   <label id="deleteconfirmationmessage">Are you sure you want to delete the Failure Reason?</label>
+</labelpackage>

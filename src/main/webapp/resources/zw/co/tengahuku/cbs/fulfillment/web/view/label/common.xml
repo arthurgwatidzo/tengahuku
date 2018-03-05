@@ -1,0 +1,16 @@
+<labelpackage name="common">
+   <label id="menuhistory">History</label>
+   <label id="search">Search</label>
+   <label id="history">History</label>
+   <label id="confirm">Confirm</label>
+   <label id="cancel">Cancel</label>
+   <label id="save">Save</label>
+   <label id="selectone">Select One ...</label>
+   <label id="edit">Edit</label>
+   <label id="delete">Delete</label>
+   <label id="update">Update</label>
+   <label id="noresults">No Results</label>
+   <label id="add">Add</label>
+   <label id="Add">Add</label>
+   <label id="send">Send</label>
+</labelpackage>

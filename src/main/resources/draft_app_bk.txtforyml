@@ -1,0 +1,50 @@
+logging:
+  level:
+    .: error
+    org.springframework: ERROR
+    zw.tengahuku: ERROR
+    org.hibernate: DEBUG
+    
+file: logs/dev_app.log
+pattern:
+console: "%d %-5level %logger : %msg%n"
+file: "%d %-5level [%thread] %logger : %msg%n"
+
+spring:
+  profiles:
+    active: "dev"
+  main:
+    banner-mode: "off"
+
+server:
+  email: arthur.gwatidzo@gmail.com
+
+---
+
+spring:
+  profiles: dev
+  file: logs/development_app.log
+server:
+  email: arthur.gwatidzo@gmail.com
+  cluster:
+    - ip: 127.0.0.1
+      path: /dev1
+    - ip: 127.0.0.2
+      path: /dev2
+    - ip: 127.0.0.3
+      path: /dev3
+
+---
+
+spring:
+  profiles: prod
+  file: logs/production_app.log
+server:
+  email: arthur.gwatidzo@gmail.com
+  cluster:
+    - ip: 192.168.0.1
+      path: /app1
+    - ip: 192.168.0.2
+      path: /app2
+    - ip: 192.168.0.3
+      path: /app3

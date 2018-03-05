@@ -1,0 +1,7 @@
+<labelpackage name="attachment">
+   <label id="filename">File Name</label>
+   <label id="noAttachements">No Attachments</label>
+   <label id="sizelbl">Size</label>
+   <label id="fileSize">Size</label>
+   <label id="removeItem">Remove Attachment</label>
+</labelpackage>

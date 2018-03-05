@@ -1,0 +1,5 @@
+<labelpackage name="notes">
+   <label id="header">header</label>
+   <label id="comment">comment</label>
+   <label id="confirm">confirm</label>
+</labelpackage>

@@ -1,0 +1,14 @@
+<labelpackage name="menubarQuery">
+
+    <!--Create Query-->
+    <label id="menubarCreateQueryButtonLabel">Create</label>
+
+    <!--Edit Query-->
+    <label id="menubarChangeStatusButtonLabel">Change Status</label>
+    <label id="menubarViewDocumentsButtonLabel">View Documents</label>
+    <label id="menubarAddDocumentsButtonLabel">Add Document</label>
+    <label id="menubarAddPrevDocumentsButtonLabel">Add Previous Document</label>
+    <label id="menubarViewHistoryButtonLabel">View History</label>
+    <label id="menubarViewCaseButtonLabel">View Case</label>
+
+</labelpackage>

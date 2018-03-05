@@ -1,0 +1,20 @@
+<labelpackage name="email">
+   <label id="sendheader">Send Email</label>
+   <label id="to">To</label>
+   <label id="cc">CC</label>
+   <label id="subject">Subject</label>
+   <label id="description">Description</label>
+   <label id="message">Message</label>
+   <label id="send">Send</label>
+   <label id="type">Type</label>
+   <label id="emailhistory">Content History</label>
+   <label id="date">Date</label>
+   <label id="from">From</label>
+   <label id="preview">Preview</label>
+   <label id="nomails">No Emails</label>
+   <label id="header">Content Details</label>
+   <label id="Attachments">Attachments</label>
+   <label id="template">Template</label>
+    <label id="selectTemplate">Select Template...</label>
+    <label id="selectFromEmail">Select From E-mail...</label>
+</labelpackage>

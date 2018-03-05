@@ -1,0 +1,10 @@
+<labelpackage name="instructions">
+   <label id="edit">Edit</label>
+   <label id="done">Done</label>
+    <label id="add">Add</label>
+    <label id="previouspage">Previous Page</label>
+    <label id="nextpage">Next Page</label>
+    <label id="remove">Remove</label>
+
+
+</labelpackage>

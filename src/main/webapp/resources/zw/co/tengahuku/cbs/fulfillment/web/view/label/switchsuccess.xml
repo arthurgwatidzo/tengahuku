@@ -1,0 +1,4 @@
+<labelpackage name="switchsuccess">
+   <label id="header">Switch Successful Confirmation</label>
+   <label id="warning">If you proceed to change this work item's status to successfully switched, a customer remark is going to be sent and posssibly an SMS. Do you want to continue?</label>
+</labelpackage>

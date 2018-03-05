@@ -1,0 +1,7 @@
+<labelpackage name="identification">
+   <label id="idtype">ID Type</label>
+   <label id="selectidtype">Select ID Type ...</label>
+   <label id="idnumber">ID Number</label>
+   <label id="idnumberRequired">ID Number is a required field.</label>
+   <label id="idtypeRequired">ID Type is a required field.</label>
+</labelpackage>

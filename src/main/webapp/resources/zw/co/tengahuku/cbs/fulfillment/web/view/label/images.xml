@@ -1,0 +1,6 @@
+<labelpackage name="images">
+   <label id="name">Name</label>
+   <label id="createddate">Created Date</label>
+   <label id="noimages">No Images</label>
+   <label id="imagesHeader">Images</label>
+</labelpackage>

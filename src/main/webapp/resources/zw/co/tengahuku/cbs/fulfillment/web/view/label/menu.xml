@@ -1,0 +1,14 @@
+<labelpackage name="menu">
+   <label id="send">Send Mail</label>
+   <label id="replyToAll">Reply To All</label>
+   <label id="changestatus">Change Status</label>
+   <label id="diarise">Diarise</label>
+   <label id="history">History</label>
+   <label id="index">Indexing</label>
+   <label id="forward">Forward</label>
+    <label id="done">Done</label>
+    <label id="addcurm">Add Customer Remark</label>
+    <label id="searchCustomer">Search For Customer</label>
+    <label id="sendsms">Send SMS</label>
+    <label id="save">Save</label>
+</labelpackage>

@@ -1,0 +1,49 @@
+.loginRightGroupBlock  {
+    height: 300px;
+}
+.loginBottomRightBlock {
+    padding-top:20px;
+}
+.loginTextBox {
+    width: 230px;
+    background-color: #ffffff !important;
+}
+.environmentTextBox {
+    width: 230px;
+}
+.loginButton {
+    margin-top: 0px!important;
+    height: 26px!important;
+}
+
+.loginForm {
+    height: 105px;
+    padding-top: 190px;
+}
+
+.capitalized {
+    text-transform: capitalize;
+}
+/*used by the file upload */
+.ui-fileupload-buttonbar {
+    background: transparent none;
+    border: none;
+    width: 30px;
+}
+.ui-fileupload-content {
+    display: none;
+}
+
+.ui-fileupload .fileinput-button {
+    background-image: none;
+}
+
+/* Used by User Management Details (Roles) screen */
+#UserRolesPickList .ui-picklist-list {
+	width:320px !important;
+}
+
+/* Used by User Management Details (Roles) screen */
+#UserRolesPickList .ui-picklist-caption {
+	width:320px !important;
+}

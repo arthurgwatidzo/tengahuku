@@ -1,0 +1,17 @@
+<labelpackage name="customer">
+   <label id="code">Code</label>
+    <label id="name">Name</label>
+    <label id="pages">Pages</label>
+    <label id="createdBy">Created By</label>
+    <label id="uploadDate">Upload Date</label>
+    <label id="frCreateDt">Creation Date</label>
+    <label id="status">Status</label>
+    <label id="edit">Edit</label>
+    <label id="preview">Preview</label>
+    <label id="uploadedBy">Uploaded By</label>
+    <label id="download">Download</label>
+    <label id="ucn">Ucn</label>
+    <label id="docTotal">Total Documents</label>
+    <label id="creatDate">Create Date</label>    
+    <label id="modifiedDate">Modified Date</label>
+</labelpackage>

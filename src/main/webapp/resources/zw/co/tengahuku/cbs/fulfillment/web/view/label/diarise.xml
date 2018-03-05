@@ -1,0 +1,6 @@
+<labelpackage name="diarise">
+   <label id="header">Diarise Work Item</label>
+   <label id="diarisedate">Diarise Date</label>
+   <label id="diarisereason">Diarise Reason</label>
+   <label id="selectreason">Select Reason ...</label>
+</labelpackage>

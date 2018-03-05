@@ -1,0 +1,7 @@
+<labelpackage name="case">
+   <label id="id">Case Number</label>
+   <label id="casetype">Case Type</label>
+   <label id="casestate">Case State</label>
+   <label id="datecreated">Date Created</label>
+   <label id="createdby">Created by</label>
+</labelpackage>

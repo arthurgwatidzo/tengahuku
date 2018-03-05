@@ -1,0 +1,9 @@
+<labelpackage name="sms">
+   <label id="message">Message</label>
+    <label id="number">Number</label>
+    <label id="smsHeader">Send Sms</label>
+    <label id="template">Template</label>
+    <label id="send">Send</label>
+    <label id="selectTemplate">Select Template...</label>
+
+</labelpackage>

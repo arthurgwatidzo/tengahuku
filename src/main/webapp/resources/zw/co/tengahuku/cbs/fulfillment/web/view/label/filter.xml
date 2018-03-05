@@ -1,0 +1,10 @@
+<labelpackage name="filter">
+    <label id="header">Work Item Filter</label>
+    <label id="showdiariseditems">Show Diarised Items</label>
+    <label id="filter">Filter</label>
+    <label id="onlyAllocated">Only Show Items Allocated To Me</label>
+    <label id="columnSelect">Display Columns</label>
+
+
+
+</labelpackage>

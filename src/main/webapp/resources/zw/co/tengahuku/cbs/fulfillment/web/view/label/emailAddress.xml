@@ -1,0 +1,13 @@
+<labelpackage name="email">
+    <label id="pageheader">Address Book</label>
+    <label id="emailaddress">Email Address</label>
+    <label id="donotdisplayinlist">Do Not Display in Address List</label>
+    <label id="donotautoreply">Do Not Send Auto-Replies</label>
+    <label id="addheader">Add New Address</label>
+    <label id="pageheader">Address Book</label>
+    <label id="suredelete">Are you sure you want to remove </label>
+    <label id="removeaddress">Remove Address</label>
+    <label id="remove">Remove</label>
+    <label id="updateheader">Edit Address</label>
+
+</labelpackage>

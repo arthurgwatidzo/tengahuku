@@ -1,0 +1,17 @@
+<labelpackage name="indexing">
+   <label id="upload">Upload To Imaging</label>
+   <label id="constructionHeader">Indexing</label>
+   <label id="addDoc">Add</label>
+   <label id="remove">Remove</label>
+   <label id="preview">Preview</label>
+   <label id="emails">Emails With Attachments</label>
+   <label id="documents">Documents To Upload To Imaging</label>
+   <label id="moveup">Move Up</label>
+   <label id="movedown">Move Down</label>
+   <label id="addto">Add To Document:</label>
+   <label id="doctype">Document Type:</label>
+   <label id="edit">Edit</label>
+   <label id="done">Done</label>
+   <label id="selectDoc">Select a document type...</label>
+
+</labelpackage>

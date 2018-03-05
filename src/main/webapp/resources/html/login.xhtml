@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui">
+
+
+<h:head>
+	<title>Fulfilment</title>
+	<h:outputStylesheet library="css" name="default.css" />
+	<ui:include src="/template/csstemplate.xhtml" />
+	<link rel="shortcut icon" href="#{resource['images/favicon.png']}"
+		type="image/x-icon" />
+	<!-- <h:outputScript library="js" name="login.js" /> -->
+</h:head>
+<h:body>
+	<f:facet name="last">
+		<h:outputStylesheet library="css" name="application.css" />
+	</f:facet>
+	<ui:define name="metadata">
+		<!-- Make sure, before we render the page, that we are not logged in. If we are then redirect to the main page. -->
+		<!-- <f:event type="preRenderView"
+                      listener="#{loginView.dontLoginIfAuthenticated}" />-->
+	</ui:define>
+
+	<p:growl globalOnly="true" sticky="false" autoUpdate="true"
+		id="loginGrowl" life="2000" />
+
+		<h:form id="loginForm">
+
+		<h:panelGroup layout="block" styleClass="centered loginBoxDiv">
+			<!-- Left block -->
+			<h:panelGroup layout="block" styleClass="loginLeft">
+				<p:outputLabel value="#{genericState.versionNumber}"
+					styleClass="loginScreenVersionLabel"></p:outputLabel>
+
+			</h:panelGroup>
+
+			<!-- Right block group -->
+			<h:panelGroup layout="block" styleClass="loginRightGroupBlock">
+				<!-- Top right block -->
+				<h:panelGroup layout="block" styleClass="loginForm">
+					<p:panelGrid>
+						<p:row>
+							<p:column>
+								<h:outputLabel value="Environment:" />
+							</p:column>
+							<p:column>
+								<p:inputText value="#{genericState.applicationEnvironment}"
+									disabled="true" styleClass="environmentTextBox" />
+							</p:column>
+						</p:row>
+						<p:row>
+							<p:column style="vertical-align: middle;">
+								<p:outputLabel value="#{labels.login.username}" />	
+							</p:column>
+							<p:column style="vertical-align: middle;">
+								<p:inputText id="userName" name="userName"
+									requiredMessage="#{labels.login.usernameRequired}"
+									value="#{loginView.userName}" required="false"
+									styleClass="loginTextBox usernameBox" />
+							</p:column>
+						</p:row>
+						<p:row>
+							<p:column style="vertical-align: middle;">
+								<p:outputLabel value="#{labels.login.password}" />
+							</p:column>
+							<p:column style="vertical-align: middle;">
+								<p:password id="password" name="password"
+									requiredMessage="#{labels.login.passwordRequired}"
+									value="#{loginView.password}" required="false"
+									styleClass="loginTextBox passwordBox" />
+							</p:column>
+						</p:row>
+						<p:row>
+							<p:column>
+
+							</p:column>
+							<p:column style="text-align: right">
+								<p:commandButton value="Login" id="loginButton"
+									actionListener="#{loginView.login}" action="loggedIn"
+									ajax="true" styleClass="loginButton" />
+							</p:column>
+						</p:row>
+					</p:panelGrid>
+				</h:panelGroup>
+
+				<!-- Bottom right block -->
+				<h:panelGroup layout="block" styleClass="loginBottomRightBlock">
+					<ui:remove>
+						<!-- <p:commandButton value="Login" id="loginButton"
+                                              actionListener="#{loginView.login}" action="loggedIn" ajax="true"
+                                              styleClass="loginButton" />-->
+						<!--<p:commandButton value="Login" id="loginButton"-->
+						<!--actionListener="#{loginView.login}" action="loggedIn"-->
+						<!--styleClass="loginButton" />-->
+					</ui:remove>
+				</h:panelGroup>
+
+			</h:panelGroup>
+		</h:panelGroup>
+	</h:form>
+</h:body>
+</html>

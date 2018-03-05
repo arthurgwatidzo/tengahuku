@@ -1,0 +1,9 @@
+<labelpackage name="menubarWorkItem">
+  <label id="menubarWorkItemGetWork">Get Work</label> 
+  <label id="menubarWorkItemReallocate">Reallocate Work Item(s)</label> 
+  <label id="menubarWorkItemEdit">Edit Work Item</label> 
+  <label id="menubarWorkItemHistory">Work Item History</label> 
+  <label id="menubarWorkItemCase">View Case</label> 
+  <label id="menubarWorkItemViewOnly">View Only</label> 
+  <label id="menubarWorkItemFilter">Work Item Filter</label> 
+  </labelpackage>

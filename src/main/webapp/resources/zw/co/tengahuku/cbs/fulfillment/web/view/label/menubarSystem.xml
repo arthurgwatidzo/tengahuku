@@ -1,0 +1,5 @@
+<labelpackage name="menubarSystem">
+  <label id="menubarSystemUserManagement">User Management</label> 
+  <label id="menubarSystemNewQuery">Create Work Item</label> 
+  <label id="menubarSystemViewMis">Management Information System</label> 
+  </labelpackage>

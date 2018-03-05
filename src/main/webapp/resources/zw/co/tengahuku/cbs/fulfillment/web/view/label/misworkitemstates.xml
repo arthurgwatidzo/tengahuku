@@ -1,0 +1,18 @@
+<labelpackage name="misworkitemstates">
+   <label id="header">Open Queues</label>
+   <label id="queue">Queue</label>
+   <label id="unallocated">Unallocated</label>
+   <label id="allocated">Allocated</label>
+   <label id="slaViolation">SLA Violation</label>
+   <label id="opened">Opened</label>
+   <label id="diarised">Diarised</label>
+   <label id="undiarised">Undiarised</label>
+   <label id="total">Total</label>
+   <label id="finishedTotal">Finished (Total)</label>
+   <label id="headerByQueue">Queue</label>
+   <label id="user">User</label>
+   <label id="headerClosed">Closed Queues</label>
+   <label id="finished">Finished (Today)</label>
+   <label id="userAllocationsQueue">User Allocations By Queue</label>
+   <label id="allocationsQueue">Allocations By Queue</label>
+</labelpackage>

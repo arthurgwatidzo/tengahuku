@@ -1,0 +1,6 @@
+<labelpackage name="login">
+   <label id="environment">Environment:</label>
+   <label id="username">Username:</label>
+   <label id="password">Password:</label>
+   <label id="login">Login</label>
+</labelpackage>

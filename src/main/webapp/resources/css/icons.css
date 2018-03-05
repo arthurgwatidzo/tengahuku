@@ -1,0 +1,178 @@
+.ui-icon-funnel {background-image: url("#{resource['image:funnel.png']}") !important;} 
+.ui-icon-outbox {background-image: url("#{resource['image:export2.png']}") !important;} 
+.ui-icon-inbox {background-image: url("#{resource['image:import.png']}") !important;} 
+.ui-icon-scroll {background-image: url("#{resource['image:history.png']}") !important;} 
+.ui-icon-user {background-image: url("#{resource['image:user_into.png']}") !important;} 
+.ui-icon-edit {background-image: url("#{resource['image:window_edit.png']}") !important;} 
+.ui-icon-new {background-image: url("#{resource['image:window_new.png']}") !important;} 
+.ui-icon-time {background-image: url("#{resource['image:window_time.png']}") !important;} 
+.ui-icon-view {background-image: url("#{resource['image:window_view.png']}") !important;}
+.ui-icon-gcheck {background-image: url("#{resource['image/menubar:gcheck.png']}") !important;}
+.ui-icon-windownext {background-image: url("#{resource['image/menubar:window_next.png']}") !important;}
+.ui-icon-windowok {background-image: url("#{resource['image/menubar:window_ok.png']}") !important;}
+.ui-icon-windowadd {background-image: url("#{resource['image/menubar:nav_plus.png']}") !important;}
+.ui-icon-window {background-image: url("#{resource['image/menubar:window.png']}") !important;}
+.ui-icon-windowerror {background-image: url("#{resource['image/menubar:window_error.png']}") !important;}
+.ui-icon-signpost {background-image: url("#{resource['image/menubar:signpost.png']}") !important;} 
+.ui-icon-ladd {background-image: url("#{resource['image:ladd.png']}") !important;}
+.ui-icon-sadd {background-image: url("#{resource['image:sadd.png']}") !important;}
+.ui-icon-diarise {background-image: url("#{resource['image:window_time.png']}") !important;}
+.ui-icon-undiarise {background-image: url("#{resource['image:window_alarm_clock.png']}") !important;}
+.ui-icon-nextwindow {background-image: url("#{resource['image:window_next.png']}") !important;}
+.ui-icon-generateinstruction {background-image: url("#{resource['image:mail_yellow.png']}") !important;}
+.ui-icon-diariseforswitch {background-image: url("#{resource['image:element_time.png']}") !important;}
+.ui-icon-cancelswitch {background-image: url("#{resource['image:element_delete.png']}") !important;}
+.ui-icon-spnotaccepting3rdpartyinstruction {background-image: url("#{resource['image:element_warning.png']}") !important;}
+.ui-icon-userManagment {background-image: url("#{resource['image:users.png']}") !important;}
+.ui-icon-switchsuccessful {background-image: url("#{resource['image:element_ok.png']}") !important;}
+.ui-icon-case {background-image: url("#{resource['image/menubar:briefcase.png']}") !important;}
+.ui-icon-sendinstruction {background-image: url("#{resource['image/menubar:mail_ok.png']}") !important;}
+.ui-icon-user-add {background-image: url("#{resource['image:user_add.png']}") !important;}
+.ui-icon-chart-pie {background-image: url("#{resource['image/menubar:chart_pie2.png']}") !important;}
+.ui-icon-imaging-doctext {background-image: url("#{resource['image/imaging:document_text.png']}") !important;}
+.ui-icon-imaging-docs {background-image: url("#{resource['image/imaging:documents.png']}") !important;}
+.ui-icon-imaging-mail {background-image: url("#{resource['image/imaging:mail.png']}") !important;}
+.ui-icon-imaging-navclose {background-image: url("#{resource['image/imaging:navigate_close.png']}") !important;}
+.ui-icon-imaging-navcross {background-image: url("#{resource['image/imaging:navigate_cross.png']}") !important;}
+.ui-icon-imaging-navopen {background-image: url("#{resource['image/imaging:navigate_open.png']}") !important;}
+.ui-icon-imaging-navright {background-image: url("#{resource['image/imaging:navigate_right.png']}") !important;}
+.ui-icon-imaging-serverdoc {background-image: url("#{resource['image/imaging:server_document.png']}") !important;}
+.ui-icon-imaging-navleft {background-image: url("#{resource['image/imaging:navigate_left.png']}") !important;}
+.ui-icon-imaging-plus{background-image: url("#{resource['image/imaging:navigate_plus.png']}") !important;}
+.ui-icon-user-add {background-image: url("#{resource['image:user_add.png']}") !important;}
+.ui-icon-chart-pie {background-image: url("#{resource['image/menubar:chart_pie2.png']}") !important;}
+.ui-icon-userManagment {background-image: url("#{resource['image:users.png']}") !important;}
+.ui-icon-document-add {background-image: url("#{resource['image/documents:document_add.png']}") !important;}
+.ui-icon-document-delete {background-image: url("#{resource['image/documents:document_delete.png']}") !important;}
+.ui-icon-document-down {background-image: url("#{resource['image/documents:document_down.png']}") !important;}
+.ui-icon-document-edit {background-image: url("#{resource['image/documents:document_edit.png']}") !important;}
+.ui-icon-document-left {background-image: url("#{resource['image/documents:document_left.png']}") !important;}
+.ui-icon-document-ok {background-image: url("#{resource['image/documents:document_ok.png']}") !important;}
+.ui-icon-document-right {background-image: url("#{resource['image/documents:document_right.png']}") !important;}
+.ui-icon-document-up {background-image: url("#{resource['image/documents:document_up.png']}") !important;}
+.ui-icon-document-view {background-image: url("#{resource['image/documents:document_view.png']}") !important;}
+.ui-icon-arrow-down-green {background-image: url("#{resource['image:arrow_down_green.png']}") !important;}
+.ui-icon-mailnew {background-image: url("#{resource['image/menubar:mail_new.png']}") !important;}
+.ui-icon-mailnewreply {background-image: url("#{resource['image/menubar:mail_reply.png']}") !important;}
+
+.ui-icon-mailok {background-image: url("#{resource['image/menubar:mail_ok.png']}") !important;}
+.ui-icon-refresh_blue {background-image: url("#{resource['image/menubar:nav_refresh_blue.png']}") !important;}
+.ui-icon-back {background-image: url("#{resource['image/menubar:nav_left_red.png']}") !important;}
+.ui-icon-ok {background-image: url("#{resource['image/menubar:ok.png']}") !important;}
+.ui-icon-piechart {background-image: url("#{resource['image:chart_pie.png']}") !important;}
+.ui-icon-flagpiechart {background-image: url("#{resource['image:signal_flag_green_chart_pie2.png']}") !important;}
+.ui-icon-userpiechart {background-image: url("#{resource['image:user_chart_pie2.png']}") !important;}
+.ui-icon-delete {background-image: url("#{resource['image:delete.png']}") !important;}
+.ui-icon-index {background-image: url("#{resource['image:index.png']}") !important;}
+.ui-icon-document {background-image: url("#{resource['image:document.png']}") !important;}
+.ui-icon-add-curm {background-image: url("#{resource['image/menubar:message_edit.png']}") !important;}
+.ui-icon-order-customersearch {background-image: url("#{resource['image/menubar:businessman_view.png']}") !important;}
+.ui-icon-EmailAddress-add {background-image: url("#{resource['image/menubar:address_book_add.png']}") !important;}
+.ui-icon-save {background-image: url("#{resource['image/menubar:floppy_disk.png']}") !important;}
+.ui-icon-sms  {background-image: url("#{resource['image/menubar:mobilephone2.png']}") !important;}
+.ui-icon-emailAddressManagment  {background-image: url("#{resource['image/menubar:address_book.png']}") !important;}
+.ui-growl-image {background-image: url("#{resource['image/growl:information.png']}") !important;}
+.ui-new-server-view {background-image: url("#{resource['image/server_view.png']}") !important;}
+.ui-icon-manage-mail {background-image: url("#{resource['image/menubar:mail_management.png']}") !important;}
+.ui-icon-track-order {background-image: url("#{resource['image/menubar:track_order.png']}") !important;}
+.ui-icon-audit-trail {background-image: url("#{resource['image/menubar:audit_trail.png']}") !important;}
+
+.ui-icon-home {background-image: url("#{resource['image/home.png']}") !important;}
+
+/*new*/
+.ui-new-arrow-left-green {background-image: url("#{resource['images/arrow_left_green.png']}") !important;}
+.ui-new-document {background-image: url("#{resource['images/document.png']}") !important;}
+.ui-new-document-down {background-image: url("#{resource['images/document_down.png']}") !important;}
+.ui-new-document-view {background-image: url("#{resource['images/document_view.png']}") !important;}
+.ui-new-mail {background-image: url("#{resource['images/mail.png']}") !important;}
+.ui-new-pencil {background-image: url("#{resource['images/pencil.png']}") !important;}
+.ui-new-window-view {background-image: url("#{resource['images/window_view.png']}") !important;}
+.ui-new-add {background-image: url("#{resource['images/add.png']}") !important;}
+
+.ui-edit-mail-exception {background-image: url("#{resource['image/editMailException.png']}") !important;}
+
+/*End newnew*/
+
+.ui-growl-image-info {
+    background-position: 0 0!important;
+    background-image: url("#{resource['image/growl:information.png']}") !important;
+}
+.ui-growl-image-error {
+    background-position: 0 0!important;
+    background-image: url("#{resource['image/growl:error.png']}") !important;
+}
+
+.ui-icon-gears {
+    background-position: 0 0!important;
+    background-image: url("#{resource['image/menubar:gears.png']}") !important;
+}
+
+.ui-icon-generate-workiems {
+    background-position: 0 0!important;
+    background-image: url("#{resource['image/menubar:window_new_folder.png']}") !important;
+}
+
+.ui-icon-tag {
+    background-position: 0 0!important;
+    background-image: url("#{resource['image/menubar:tag.png']}") !important;
+}
+
+.ui-import-mails {
+    background-position: 0 0!important;
+    background-image: url("#{resource['image/menubar:importmails.png']}") !important;
+}
+
+.ui-icon-mail-foward {
+    background-position: 0 0!important;
+    background-image: url("#{resource['image/imaging:mail_forward.png']}") !important;
+}
+
+.ui-icon-mail-new {
+    background-position: 0 0!important;
+    background-image: url("#{resource['image/imaging:mail_new.png']}") !important;
+}
+
+.ui-icon-mail-reply-to_all {
+    background-position: 0 0!important;
+    background-image: url("#{resource['image/menubar:mail_reply2all_B.png']}") !important;
+}
+
+.ui-icon-mail-out {
+    background-position: 0 0!important;
+    background-image: url("#{resource['image/imaging:mail_out.png']}") !important;
+}
+
+.ui-icon-mailforward{
+    background-position: 0 0!important;
+    background-image: url("#{resource['image/menubar:mail_forward.png']}") !important;
+}
+
+
+.ui-seperator-a{
+    background-image: url("#{resource['image/menubar:seperatorA.png']}") !important;
+}
+.ui-icon-columns{
+    background-image: url("#{resource['image/menubar:table_column_preferences.png']}") !important;
+}
+
+.ui-icon-mail-search{
+    background-image: url("#{resource['image/menubar:mail_view.png']}") !important;
+}
+
+.ui-column-filter-funnel{
+    background-image: url("#{resource['image/columns:funnel.png']}") !important;
+}
+
+
+
+
+/*
+.ui-messages-info-icon{
+    background-position: 0 0!important;
+    background-image: url("#{resource['image/growl:information.png']}") !important;
+}
+
+.ui-messages-error-icon {
+    background-position: 0 0!important;
+    background-image: url("#{resource['image/growl:error.png']}") !important;
+}*/

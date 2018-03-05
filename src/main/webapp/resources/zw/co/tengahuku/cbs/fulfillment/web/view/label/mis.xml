@@ -1,0 +1,14 @@
+<labelpackage name="appmenu">
+    <label id="buttonmis">Management Information System</label>
+    <label id="selectreport">Select Report...</label>
+    <label id="selectqueue">Select Queue...</label>
+    <label id="norecords">No Records</label>
+    <label id="reportselect">Report: </label>
+    <label id="queueselect">Queue: </label>
+    <label id="datefromselect">Date From:</label>
+    <label id="datetoselect">Date To:</label>
+    <label id="userselect">User:</label>
+    <label id="dateselect">Date:</label>
+    <label id="datefromselect">Date From:</label>
+    <label id="selectuser">Select User...</label>
+</labelpackage>

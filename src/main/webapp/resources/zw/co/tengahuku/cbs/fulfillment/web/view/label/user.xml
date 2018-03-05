@@ -1,0 +1,23 @@
+<labelpackage name="user">
+    <label id="name">Username</label>
+    <label id="description">Description</label>
+    <label id="enabled">Enabled</label>
+    <label id="addheader">Add New User</label>
+    <label id="header">Edit User</label>
+    <label id="roles">User Roles</label>
+    <label id="selectrole">Select Role</label>
+    <label id="nousers">No Users Found</label>
+    <label id="noroles">No Roles Found</label>
+    <label id="hasrole">Has</label>
+    <label id="role">Role</label>
+    <label id="roledescription">Description</label>
+    <label id="pageheader">User Management</label>
+    <label id="admin">User Administrator</label>
+    <label id="search">Search: </label>
+    <label id="savefailed">Save Failed</label>
+    <label id="historyheader">User History</label>
+    <label id="historydateTime">Date</label>
+    <label id="historyeventTypeName">Event</label>
+    <label id="historyperformedByUserDescription">By User</label>
+    <label id="historydetail">Detail</label>
+</labelpackage>

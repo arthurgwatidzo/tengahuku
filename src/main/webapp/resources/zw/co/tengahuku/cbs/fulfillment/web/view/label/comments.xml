@@ -1,0 +1,8 @@
+<labelpackage name="comments">
+    <label id="noteHeader">Query Comment Note</label>
+    <label id="date">Date</label>
+    <label id="createdBy">Created By</label>
+    <label id="comment">Comment</label>
+    <label id="viewMoreComments">View More Comments</label>
+
+</labelpackage>

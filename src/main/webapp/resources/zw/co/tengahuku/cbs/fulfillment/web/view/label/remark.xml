@@ -1,0 +1,9 @@
+<labelpackage name="account">
+   <label id="remarks">Remarks</label>
+    <label id="customerHeader">Customer Remarks</label>
+    <label id="template">Template</label>
+    <label id="selectTemplate">Select Template...</label>
+
+
+
+</labelpackage>

@@ -1,0 +1,22 @@
+<labelpackage name="fulfillment">
+	<label id="header">Entity Details</label>
+	<label id="name">Name</label>
+	<label id="docrecievedind"> Documents Received Indicator</label>
+	<label id="primarycontact">Primary Contact Details</label>
+	<label id="requireddocuments">Required Documents</label>
+
+	<label id="docsreceived">Documents Received</label>
+	<label id="fraud">Fraud Check</label>
+	<label id="registartion">Company Registration (Windeed)</label>
+	<label id="valueadds">Value Adds</label>
+	<label id="credit">Credit Application</label>
+	<label id="indexing">Index Documents</label>
+	<label id="linking">Account/Customer Linking</label>
+	<label id="xds">XDS Authentication</label>
+	<label id="activation">Account Activation</label>
+	<label id="qa">QA</label>	
+	<label id="progress">Application Progress Details</label>
+    <label id="maintenancecomplete">Maintenance Complete</label>
+    <label id="preferredContactTime">Preferred Contact Time</label>
+
+</labelpackage>

@@ -1,0 +1,6 @@
+<labelpackage name="undiarise">
+   <label id="header">Undiarise Work Item</label>
+   <label id="warning">Are you sure you want to undiarise the selected work item(s)?</label>
+    <label id="confirm">Undiarise</label>
+   <label id="confirm">Confirm</label>
+</labelpackage>

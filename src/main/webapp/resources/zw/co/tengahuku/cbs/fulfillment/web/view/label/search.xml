@@ -1,0 +1,11 @@
+<labelpackage name="status">
+   <label id="id">ID Number</label>
+    <label id="account">Account Number</label>
+    <label id="name">Full Name</label>
+    <label id="ucn">UCN</label>
+    <label id="searchby">Search By</label>
+    <label id="selectinformation">Select Information</label>
+
+
+
+</labelpackage>

@@ -1,0 +1,21 @@
+<labelpackage name="account">
+   <label id="selectCategory">Select Category ...</label>
+   <label id="selectSubCategory">Select Sub Category ...</label>
+    <label id="account">Account</label>
+    <label id="accountno">Account Number</label>
+    <label id="type">Sub-Product</label>
+    <label id="typedescription">Sub-Product Description</label>
+    <label id="selectaccount">Select Account</label>
+    <label id="subproduct">Sub Product</label>
+    <label id="productcode">Product Code</label>
+    <label id="product">Product Description</label>
+    <label id="selectproductcodes">Select Product Code...</label>
+    <label id="selectAccount">Select Account</label>
+    <label id="productDescription">Product Description</label>
+    <label id="status">Status</label>
+    <label id="datereceived">Date Received</label>
+    <label id="branchCode">Branch</label>
+    
+
+
+</labelpackage>

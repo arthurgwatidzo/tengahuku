@@ -1,0 +1,11 @@
+<labelpackage name="contact">
+   <label id="email">Email</label>
+   <label id="cell">Cell Number</label>
+   <label id="landline">Home Number</label>
+   <label id="workline">Work Number</label>
+   <label id="fax">Fax Number</label>
+   <label id="companycontact">Company Contact</label>
+   <label id="companylandline">Company Landline</label>
+   <label id="companyfax">Company Fax</label>
+   <label id="companymobile">Company Cell</label>
+</labelpackage>

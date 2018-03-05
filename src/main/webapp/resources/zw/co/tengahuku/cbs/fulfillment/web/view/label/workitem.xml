@@ -1,0 +1,40 @@
+<labelpackage name="workitem">
+   <label id="workitemno">Work Item ID</label>
+   <label id="worktype">Work Type</label>
+   <label id="description">Description</label>
+   <label id="queue">Queue</label>
+   <label id="status">Status</label>
+   <label id="lastactivitydatefrom">Last Activity Date From</label>
+   <label id="lastactivitydateto">Last Activity Date To</label>
+   <label id="assignedto">Allocated To</label>
+   <label id="caseno">Case #</label>
+   <label id="workitemsearch">Work Item Search</label>
+   <label id="lastactivity">Last Activity</label>
+   <label id="myworkheader">My Work</label>
+   <label id="nowork">No work items found.</label>
+   <label id="selectone">Select One ...</label>
+   <label id="header">Work Item Details</label>
+   <label id="workitemid">Work Item ID</label>
+   <label id="workitemtype">Work Item Type</label>
+   <label id="currentqueue">Current Queue</label>
+   <label id="currentstatus">Current Status</label>
+   <label id="caseid">Case ID</label>
+   <label id="selectoneworkitemtype">Select Work Item Type...</label>
+   <label id="selectonequeue">Select Queue...</label>
+   <label id="selectonestatus">Select Status...</label>
+   <label id="selectoneassignee">Select Assignee...</label>
+   <label id="selectonecase">Select Case...</label>
+   <label id="casetype">Case Type</label>
+   <label id="casetypedescription">Case Type Description</label>
+   <label id="search">Search:  </label>
+   <label id="reallocate"> </label>
+
+    <label id="lastactivityuser">Last Activity User</label>
+    <label id="stateflag">State Flag</label>
+    <label id="diarisedate">Diarise Date</label>
+    <label id="diarisereason">Diarise Reason</label>
+    <label id="createdate">Create Date</label>
+    <label id="createdbyuser">Created By User</label>
+    <label id="slaviolationdate">SLA Violation Date</label>
+
+</labelpackage>

@@ -1,0 +1,29 @@
+.ui-growl{
+    top:180px!important;
+    right:42px!important;
+
+}
+.ui-growl-item-container{
+    background-image:linear-gradient(to bottom, #FFCC33, #F47920)!important;
+}
+
+.ui-growl-message p {
+    font-weight: bold !important;
+    color : #000000 !important;
+}
+
+.ui-growl-title {
+    font-weight: bold !important;
+    color : #000000 !important;
+}
+
+
+.ui-selectcheckboxmenu-label {
+    color: #000000 !important;
+    text-decoration: none;
+}
+
+.ui-nullindicator {
+    color:#BBBBBB !important;
+}
+
