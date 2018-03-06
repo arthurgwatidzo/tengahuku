@@ -10,6 +10,7 @@ import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.boot.web.servlet.ServletRegistrationBean;
+import org.springframework.boot.web.support.SpringBootServletInitializer;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
@@ -19,7 +20,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @EnableJpaRepositories(entityManagerFactoryRef="entityManagerFactory")
 @SpringBootApplication
 @ComponentScan({"zw.co.tengahuku"})
-public class TengahukuApplication {
+public class TengahukuApplication extends SpringBootServletInitializer{
 	public static void main(String[] args) {
 		SpringApplication.run(TengahukuApplication.class, args);
 	}
