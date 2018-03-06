@@ -1,4 +1,4 @@
-package zw.co.tengahuku.controller;
+package zw.co.tengahuku.api.controller;
 
 public class InvoiceAPIController {
 
