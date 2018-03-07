@@ -39,8 +39,7 @@ public class UserService implements IUserService{
 
 	@Override
 	public List<User> findAllUserAccounts() {
-		// TODO Auto-generated method stub
-		return null;
+		return userRepository.findAll();
 	}
 
 }

@@ -77,6 +77,10 @@ public class Employee {
 	@PrimaryKeyJoinColumn
 	private Order order;
 	
+	@OneToOne(fetch = FetchType.LAZY)
+	@PrimaryKeyJoinColumn
+	private Manager manager;
+	
 	
 
 }
