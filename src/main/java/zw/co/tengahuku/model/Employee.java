@@ -69,6 +69,10 @@ public class Employee {
 	@Column(name="EMPLOYEE_ENABLED")
 	private Boolean enabled;
 	
+	@Column(name="EMPLOYEE_SALARY")
+	private Double monthlySalary;
+	
+	
 	@OneToOne(fetch = FetchType.LAZY)
 	@PrimaryKeyJoinColumn
 	private Order order;

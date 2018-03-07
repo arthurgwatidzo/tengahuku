@@ -25,15 +25,15 @@ public class Account {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	@Column(name="ID")
-	Long id;
+	private Long id;
 	@Column(name="INTEREST_RATE")
-	Double interestRate;
+	private Double interestRate;
 	@Column(name="BALANCE")
-	Double balance;
+	private Double balance;
 	@OneToOne(fetch = FetchType.LAZY, mappedBy = "account", cascade = CascadeType.ALL)
 	@JoinColumn(name="CUSTOMER_ID")
-	Customer customer;
+	private Customer customer;
 	@Column(name="OPENED_RATE")
-	Date openedDate;
+	private Date openedDate;
 
 }

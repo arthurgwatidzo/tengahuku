@@ -34,5 +34,7 @@ public class Payment {
 	private Double paymentAmount;
 	@Column(name="PAYMENT_DESCRIPTION")
 	private String paymentDescription;
+	@Column(name="PAYMENT_TYPE")
+	private String paymentType;
 
 }

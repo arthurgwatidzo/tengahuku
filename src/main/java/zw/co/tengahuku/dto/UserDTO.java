@@ -10,6 +10,17 @@ public class UserDTO {
 	private Boolean accountLocked;
 	private String userRole;
 	
+	
+	
+	public UserDTO(Long id, String emailUserName, String password, Customer customer, Boolean accountLocked,
+			String userRole) {
+		this.id = id;
+		this.emailUserName = emailUserName;
+		this.password = password;
+		this.customer = customer;
+		this.accountLocked = accountLocked;
+		this.userRole = userRole;
+	}
 	public Long getId() {
 		return id;
 	}
