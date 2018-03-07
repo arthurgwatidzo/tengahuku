@@ -1,5 +1,6 @@
 package zw.co.tengahuku.model;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
@@ -38,6 +39,10 @@ public class User{
 	@Column(name="USER_ROLE",nullable=false)
 	private String userRole;
 	
+	@OneToOne(fetch = FetchType.LAZY, mappedBy = "account", cascade = CascadeType.ALL)
+	@JoinColumn(name="CUSTOMER_ID")
+	Customer customer;
+	
 
 	public User(String emailUserName, String password, Boolean accountLocked) {
 		this.emailUserName = emailUserName;
@@ -50,6 +55,14 @@ public class User{
 		this.password = password;
 		this.accountLocked = accountLocked;
 		this.userRole=userRole;
+	}
+	
+	public User(String emailUserName, String password, Boolean accountLocked, String userRole, Customer customer) {
+		this.emailUserName = emailUserName;
+		this.password = password;
+		this.accountLocked = accountLocked;
+		this.userRole=userRole;
+		this.customer=customer;
 	}
 	
 	

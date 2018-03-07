@@ -8,6 +8,7 @@ public class UserDTO {
 	private String password;
 	private Customer customer;
 	private Boolean accountLocked;
+	private String userRole;
 	
 	public Long getId() {
 		return id;
@@ -39,8 +40,12 @@ public class UserDTO {
 	public void setAccountLocked(Boolean accountLocked) {
 		this.accountLocked = accountLocked;
 	}
-	
-	
+	public String getUserRole() {
+		return userRole;
+	}
+	public void setUserRole(String userRole) {
+		this.userRole = userRole;
+	}
 	
 
 }
