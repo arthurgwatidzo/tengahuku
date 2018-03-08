@@ -1,5 +1,7 @@
 package zw.co.tengahuku.dto;
 
+import java.util.Date;
+
 import zw.co.tengahuku.model.Customer;
 
 public class UserDTO {
@@ -9,6 +11,8 @@ public class UserDTO {
 	private Customer customer;
 	private Boolean accountLocked;
 	private String userRole;
+	private Date updatedAt;
+	private Date createdAt;
 	
 	
 	
@@ -21,6 +25,47 @@ public class UserDTO {
 		this.accountLocked = accountLocked;
 		this.userRole = userRole;
 	}
+	
+	
+	
+	public UserDTO(Long id, String emailUserName, String password, Customer customer, Boolean accountLocked,
+			String userRole, Date updatedAt, Date createdAt) {
+		this.id = id;
+		this.emailUserName = emailUserName;
+		this.password = password;
+		this.customer = customer;
+		this.accountLocked = accountLocked;
+		this.userRole = userRole;
+		this.updatedAt = updatedAt;
+		this.createdAt = createdAt;
+	}
+
+
+
+	public Date getUpdatedAt() {
+		return updatedAt;
+	}
+
+
+
+	public void setUpdatedAt(Date updatedAt) {
+		this.updatedAt = updatedAt;
+	}
+
+
+
+	public Date getCreatedAt() {
+		return createdAt;
+	}
+
+
+
+	public void setCreatedAt(Date createdAt) {
+		this.createdAt = createdAt;
+	}
+
+
+
 	public Long getId() {
 		return id;
 	}
