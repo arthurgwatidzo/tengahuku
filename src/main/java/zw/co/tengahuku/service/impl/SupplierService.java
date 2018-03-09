@@ -1,17 +1,19 @@
-package zw.co.tengahuku.repository;
+package zw.co.tengahuku.service.impl;
 
 import java.util.Objects;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
 import zw.co.tengahuku.model.Supplier;
+import zw.co.tengahuku.repository.SupplierRepository;
+import zw.co.tengahuku.service.ISupplierService;
 
-public class SupplierService {
+public class SupplierService implements ISupplierService{
 	
 	@Autowired
 	SupplierRepository supplierRepository;
 	
-	Supplier findSupplierByContactPerson(String contactPerson){
+	public Supplier findSupplierByContactPerson(String contactPerson){
 		return supplierRepository.findSupplierByContactPerson(contactPerson);
 	}
 	
