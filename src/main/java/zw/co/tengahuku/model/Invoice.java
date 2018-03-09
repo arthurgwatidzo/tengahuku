@@ -36,7 +36,7 @@ public class Invoice {
 	private Date invoiceDate;
 	@Column(name="QUANTITY")
 	private Long quantity;
-	@Column(name="QUANTITY")
+	@Column(name="PRICE_PER_ITEM")
 	private double pricePerItem;
 	@Column(name="AMOUNT")
 	private double amount;
