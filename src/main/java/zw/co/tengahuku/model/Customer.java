@@ -29,7 +29,7 @@ public class Customer {
 	@Column(name = "ID")
 	private Long id;
 	@Column(name = "COMPANY_NAME", nullable = false)
-	private String companyName;
+	private String customerName;
 	@Column(name = "CONTACT_NAME", nullable = false)
 	private String contactName;
 	@Column(name = "CONTACT_TITLE", nullable = false)
@@ -44,15 +44,18 @@ public class Customer {
 	private String emailAddress;
 	@Column(name = "ENABLED", nullable = false)
 	private Boolean enabled;
+	@Column(name = "CUSTOMER_A_COMPANY", nullable = false)
+	private Boolean customerACompany;
 	@OneToMany(targetEntity=Payment.class, fetch = FetchType.LAZY, cascade = CascadeType.ALL, mappedBy = "customer")
 	private List<Payment> payments;
 	@OneToMany(targetEntity=Order.class, fetch = FetchType.LAZY, cascade = CascadeType.ALL, mappedBy = "customer")
 	private List<Order> orders;
-	@OneToOne(fetch = FetchType.LAZY)
+	@OneToOne(fetch = FetchType.EAGER)
 	@PrimaryKeyJoinColumn
 	private Account account;
-	@OneToOne(fetch = FetchType.LAZY)
+	@OneToOne(fetch = FetchType.EAGER)
 	@PrimaryKeyJoinColumn
 	private User user;
+	
 
 }

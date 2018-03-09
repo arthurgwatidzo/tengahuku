@@ -5,7 +5,7 @@ import java.util.List;
 public class CustomerDTO {
 
 	private Long id;
-	private String companyName;
+	private String customerName;
 	private String contactName;
 	private String contactTitle;
 	private String deliveryAddress;
@@ -17,12 +17,13 @@ public class CustomerDTO {
 	private List<OrderDTO> orders;
 	private AccountDTO account;
 	private UserDTO user;
+	private Boolean customerACompany;
 
-	public CustomerDTO(Long id, String companyName, String contactName, String contactTitle, String deliveryAddress,
+	public CustomerDTO(Long id, String customerName, String contactName, String contactTitle, String deliveryAddress,
 			String city, String telephoneNumber, String emailAddress, Boolean enabled, List<PaymentDTO> payments,
-			List<OrderDTO> orders, AccountDTO account, UserDTO user) {
+			List<OrderDTO> orders, AccountDTO account, UserDTO user, Boolean customerACompany) {
 		this.id = id;
-		this.companyName = companyName;
+		this.customerName = customerName;
 		this.contactName = contactName;
 		this.contactTitle = contactTitle;
 		this.deliveryAddress = deliveryAddress;
@@ -34,6 +35,7 @@ public class CustomerDTO {
 		this.orders = orders;
 		this.account = account;
 		this.user = user;
+		this.customerACompany=customerACompany;
 	}
 
 	public List<PaymentDTO> getPayments() {
@@ -68,12 +70,12 @@ public class CustomerDTO {
 		this.id = id;
 	}
 
-	public String getCompanyName() {
-		return companyName;
+	public String getCustomerName() {
+		return customerName;
 	}
 
-	public void setCompanyName(String companyName) {
-		this.companyName = companyName;
+	public void setCustomerName(String customerName) {
+		this.customerName = customerName;
 	}
 
 	public String getContactName() {
@@ -139,5 +141,15 @@ public class CustomerDTO {
 	public void setUser(UserDTO user) {
 		this.user = user;
 	}
+
+	public Boolean getCustomerACompany() {
+		return customerACompany;
+	}
+
+	public void setCustomerACompany(Boolean customerACompany) {
+		this.customerACompany = customerACompany;
+	}
+	
+	
 
 }

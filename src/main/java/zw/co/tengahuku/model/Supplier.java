@@ -17,6 +17,7 @@ import lombok.ToString;
 @AllArgsConstructor
 @Table(name="SUPPLIER")
 public class Supplier {
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	@Column(name="ID")
@@ -41,4 +42,8 @@ public class Supplier {
 	private String telephoneNumberTwo;
 	@Column(name="EMAIL_ADDRESS",nullable=false)
 	private String emailAddress;
+	
+public Supplier() {
+		
+	}
 }

@@ -66,13 +66,14 @@ public class BusinessMapper {
 		 Customer customer = (Customer) GenericTransformer.transform(customerDTO, Customer.class);
 		 customer.setId(customerDTO.getId());
 		 customer.setCity(customerDTO.getCity());
-		 customer.setCompanyName(customerDTO.getCompanyName());
+		 customer.setCustomerName(customerDTO.getCustomerName());
 		 customer.setContactName(customerDTO.getContactName());
 		 customer.setContactTitle(customerDTO.getContactTitle());
 		 customer.setDeliveryAddress(customerDTO.getDeliveryAddress());
 		 customer.setEmailAddress(customerDTO.getEmailAddress());
 		 customer.setEnabled(customerDTO.getEnabled());
 		 customer.setTelephoneNumber(customerDTO.getTelephoneNumber());
+		 customer.setCustomerACompany(customerDTO.getCustomerACompany());
 		
 		 
 		 return customer;
@@ -87,12 +88,13 @@ public class BusinessMapper {
 		 
 		 CustomerDTO customerDTO = (CustomerDTO) GenericTransformer.transform(customer, CustomerDTO.class);
 		 customerDTO.setCity(customer.getCity());
-		 customerDTO.setCompanyName(customer.getCompanyName());
+		 customerDTO.setCustomerName(customer.getCustomerName());
 		 customerDTO.setContactName(customer.getContactName());
 		 customerDTO.setContactTitle(customer.getContactTitle());
 		 customerDTO.setDeliveryAddress(customer.getDeliveryAddress());
 		 customerDTO.setEmailAddress(customer.getEmailAddress());
 		 customerDTO.setPayments(mapPayments(customer.getPayments()));
+		 customerDTO.setCustomerACompany(customer.getCustomerACompany());
 		 
 		 return customerDTO;
 	 }

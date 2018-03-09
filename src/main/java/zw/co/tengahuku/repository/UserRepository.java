@@ -12,6 +12,7 @@ import zw.co.tengahuku.model.User;
 @Repository("userRepository")
 public interface UserRepository extends JpaRepository<User,Long>{
 	
+	@Query("SELECT u FROM User u WHERE u.emailUserName = :emailUserName")
 	User findUserByEmailUserName(String emailUserName);
 	
 	@Modifying
