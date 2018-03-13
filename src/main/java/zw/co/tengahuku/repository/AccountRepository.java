@@ -24,10 +24,10 @@ public interface AccountRepository extends JpaRepository<Account,Long>{
 	 @Query("SELECT u FROM Account u WHERE u.customer.customerACompany = false AND  u.enabled=true")
 	 List<Account> findAllIndividualPersonAccounts();
 	 
-	 @Query("SELECT u FROM Account u WHERE  AND u.balance > 0 u.customer.id = :customerId AND  u.enabled=true")
+	 @Query("SELECT u FROM Account u WHERE  u.balance > 0 AND u.customer.id = :customerId AND  u.enabled=true")
 	 Account findIfCustomerAccountIsInArrears(Long customerId);
 	 
-	 @Query("SELECT u FROM Account u WHERE  AND u.balance <= 0 AND u.enabled=true")
+	 @Query("SELECT u FROM Account u WHERE  u.balance <= 0 AND u.enabled=true")
 	 List<Account> findAllAccountsInArrears();
 	 
 	 @Query("SELECT u FROM Account u WHERE u.customer.customerACompany = true AND u.enabled=false")
@@ -43,11 +43,11 @@ public interface AccountRepository extends JpaRepository<Account,Long>{
 	 List<Account> findAllClosedAccounts();
 	 
 	 @Modifying(clearAutomatically = true)
-	 @Query("update Account u set u.accountFreezed = :accountFreezed WHERE u.id = :accountId")
+	 @Query("update Account u set u.accountFreezed = true WHERE u.id = :accountId")
 	 void freezeAccount(Long accountId);
 	 
 	 @Modifying
-	 @Query("update Account u set u.accountFreezed = :accountFreezed WHERE u.customer.id = :customerId AND u.enabled=true")
+	 @Query("update Account u set u.accountFreezed = true WHERE u.customer.id = :customerId AND u.enabled=true")
 	 void freezeAccountByCustomerId(Long customerId);
 	 
 	 @Modifying

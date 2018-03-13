@@ -35,7 +35,9 @@ public class Account {
 	private Customer customer;
 	@Column(name="OPENED_RATE")
 	private Date openedDate;
-	@Column(name="OPENED_RATE")
+	@Column(name="ACCOUNT_FREEZED")
 	private Boolean accountFreezed;
+	@Column(name="ACCOUNT_ENABLED")
+	private Boolean enabled;
 
 }

@@ -45,19 +45,7 @@
     		<groupId>org.springframework</groupId>
     		<artifactId>spring-core</artifactId>
 		</dependency>
-		
-		
-		<!-- Feign Clients Plugin-->
-		<!-- <dependency>
-    		<groupId>org.springframework.cloud</groupId>
-    		<artifactId>spring-cloud-starter-openfeign</artifactId>
-    		<version>1.4.3.RELEASE</version>
-		</dependency>  -->
-		
-		 <!-- <dependency>
-            <groupId>org.springframework.integration</groupId>
-            <artifactId>spring-integration-http</artifactId>
-        </dependency> -->
+	
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-annotations</artifactId>
