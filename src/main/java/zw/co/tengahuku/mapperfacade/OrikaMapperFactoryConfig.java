@@ -15,12 +15,12 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-//import zw.co.tengahuku.utilities.DateTimePeriod;
+
 
 
 @Configuration
 public class OrikaMapperFactoryConfig {
-	//DateTimePeriod dateTimePeriod;
+	
 	private static final Logger log = LoggerFactory.getLogger(OrikaMapperFactoryConfig.class);
 	
 	 public OrikaMapperFactoryConfig() {
@@ -36,7 +36,7 @@ public class OrikaMapperFactoryConfig {
 	        mapperFactory.getConverterFactory().registerConverter(new PassThroughConverter(new Type[]{ZonedDateTime.class}));
 	        mapperFactory.getConverterFactory().registerConverter(new PassThroughConverter(new Type[]{LocalDateTime.class}));
 	        mapperFactory.getConverterFactory().registerConverter(new PassThroughConverter(new Type[]{ZoneOffset.class}));
-	        //mapperFactory.getConverterFactory().registerConverter(new PassThroughConverter(new Type[]{dateTimePeriod}));
+	   
 	        return mapperFactory;
 	    }
 	 

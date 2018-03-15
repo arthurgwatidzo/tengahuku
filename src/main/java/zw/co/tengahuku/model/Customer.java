@@ -1,5 +1,6 @@
 package zw.co.tengahuku.model;
 
+import java.util.Date;
 import java.util.List;
 
 import javax.persistence.CascadeType;
@@ -46,6 +47,8 @@ public class Customer {
 	private Boolean enabled;
 	@Column(name = "CUSTOMER_A_COMPANY", nullable = false)
 	private Boolean customerACompany;
+	@Column(name = "CREATED_ON", nullable = false)
+	private Date createdOn;
 	@OneToMany(targetEntity=Payment.class, fetch = FetchType.LAZY, cascade = CascadeType.ALL, mappedBy = "customer")
 	private List<Payment> payments;
 	@OneToMany(targetEntity=Order.class, fetch = FetchType.LAZY, cascade = CascadeType.ALL, mappedBy = "customer")
@@ -56,6 +59,7 @@ public class Customer {
 	@OneToOne(fetch = FetchType.EAGER)
 	@PrimaryKeyJoinColumn
 	private User user;
+
 	
 
 }

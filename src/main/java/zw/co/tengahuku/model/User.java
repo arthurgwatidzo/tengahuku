@@ -47,11 +47,11 @@ public class User{
 	@JoinColumn(name="CUSTOMER_ID")
 	Customer customer;
 	
-	@Column(name="CREATED_AT",nullable=false)
-	private Date createdAt;
+	@Column(name="CREATED_ON",nullable=false)
+	private Date createdOn;
 	
-	@Column(name="UPDATED_AT",nullable=false)
-	private Date updatedAt;
+	@Column(name="UPDATED_ON",nullable=false)
+	private Date updatedOn;
 	
 	@OneToMany(targetEntity=UserRole.class, fetch = FetchType.LAZY, cascade = CascadeType.ALL, mappedBy = "user")
 	private List<UserRole> userRoles;

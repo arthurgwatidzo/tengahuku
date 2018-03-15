@@ -32,6 +32,8 @@ public class BusinessMapper {
 		 user.setId(userDTO.getId());
 		 user.setPassword(userDTO.getPassword());
 		 user.setUserRole(userDTO.getUserRole());
+		 user.setCreatedOn(userDTO.getCreatedOn());
+		 user.setUpdatedOn(userDTO.getUpdatedOn());
 		
 		return user;
 		 
@@ -51,6 +53,8 @@ public class BusinessMapper {
 		 userDTO.setEmailUserName(userDTO.getEmailUserName());
 		 userDTO.setUserRole(user.getUserRole());
 		 userDTO.setPassword(user.getPassword());
+		 userDTO.setCreatedOn(user.getCreatedOn());
+		 userDTO.setUpdatedOn(user.getUpdatedOn());
 		 
 		 return userDTO;
 	 }

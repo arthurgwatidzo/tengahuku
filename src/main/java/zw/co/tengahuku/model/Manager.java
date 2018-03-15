@@ -1,5 +1,7 @@
 package zw.co.tengahuku.model;
 
+import java.util.Date;
+
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -8,6 +10,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
@@ -25,13 +28,17 @@ public class Manager {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	@Column(name="ID")
 	private int id;
-	@OneToOne(fetch = FetchType.LAZY, mappedBy = "manager", cascade = CascadeType.ALL)
+	@ManyToOne(fetch=FetchType.LAZY)
 	@JoinColumn(name="EMPLOYEE_ID")
 	private Employee employee;
 	@Column(name="DESIGNATION")
 	private String designation;
 	@Column(name="HEADED_DIVISION")
 	private String headedDivision;
+	@Column(name="CREATED_ON")
+	private Date CreatedOn;
+	@Column(name="LAST_UPDATED_BY")
+	private Date lastUpdatedBy;
 	
 
 }

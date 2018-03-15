@@ -30,7 +30,7 @@ public class Inventory {
 	private PoultryProduct poultryProduct;
 	@Column(name="STOCK_IN")
 	private Long stockIn;
-	@Column(name="PAYMENT_DATE")
+	@Column(name="STOCK_OUT")
 	private Long stockOut;
 	@Column(name="TRANSACTION_DATE")
 	private Date transactionDate;

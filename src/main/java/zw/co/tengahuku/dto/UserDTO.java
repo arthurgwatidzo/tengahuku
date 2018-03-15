@@ -11,8 +11,8 @@ public class UserDTO {
 	private Customer customer;
 	private Boolean accountLocked;
 	private String userRole;
-	private Date updatedAt;
-	private Date createdAt;
+	private Date updatedOn;
+	private Date createdOn;
 	
 	
 	
@@ -29,39 +29,39 @@ public class UserDTO {
 	
 	
 	public UserDTO(Long id, String emailUserName, String password, Customer customer, Boolean accountLocked,
-			String userRole, Date updatedAt, Date createdAt) {
+			String userRole, Date updatedOn, Date createdOn) {
 		this.id = id;
 		this.emailUserName = emailUserName;
 		this.password = password;
 		this.customer = customer;
 		this.accountLocked = accountLocked;
 		this.userRole = userRole;
-		this.updatedAt = updatedAt;
-		this.createdAt = createdAt;
+		this.updatedOn = updatedOn;
+		this.createdOn = createdOn;
 	}
 
 
 
-	public Date getUpdatedAt() {
-		return updatedAt;
+	public Date getUpdatedOn() {
+		return updatedOn;
 	}
 
 
 
-	public void setUpdatedAt(Date updatedAt) {
-		this.updatedAt = updatedAt;
+	public void setUpdatedOn(Date updatedOn) {
+		this.updatedOn = updatedOn;
 	}
 
 
 
-	public Date getCreatedAt() {
-		return createdAt;
+	public Date getCreatedOn() {
+		return createdOn;
 	}
 
 
 
-	public void setCreatedAt(Date createdAt) {
-		this.createdAt = createdAt;
+	public void setCreatedOn(Date createdOn) {
+		this.createdOn = createdOn;
 	}
 
 

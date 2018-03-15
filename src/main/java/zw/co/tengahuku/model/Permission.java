@@ -29,9 +29,9 @@ public class Permission {
 	private String permissionDescription;
 	@Column(name="ROLE_ID")
 	private int roleId;
-	@Column(name="CREATED_AT")
-	private Date createdAt;
-	@Column(name="UPDATED_AT")
-	private Date updatedAt;
+	@Column(name="CREATED_ON")
+	private Date createdOn;
+	@Column(name="UPDATED_ON")
+	private Date updatedOn;
 
 }

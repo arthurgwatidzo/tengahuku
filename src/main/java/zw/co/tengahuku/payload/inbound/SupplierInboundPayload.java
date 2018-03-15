@@ -14,7 +14,6 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class SupplierInboundPayload implements Payload{
 	
-	//private int id;
 	private String name;
 	 @JsonProperty(value = "address")
 	private String physicalAddress;

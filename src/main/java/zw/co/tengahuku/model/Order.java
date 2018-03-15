@@ -34,7 +34,7 @@ public class Order {
 	@JoinColumn(name="CUSTOMER_ID")
 	private Customer customer;
 	
-	@OneToOne(fetch = FetchType.LAZY, mappedBy = "order", cascade = CascadeType.ALL)
+	@ManyToOne(fetch=FetchType.LAZY)
 	@JoinColumn(name="EMPLOYEE_ID")
 	private Employee employee;
 	
@@ -43,15 +43,15 @@ public class Order {
 	
 	@Column(name="REQUIRED_DATE")
 	private Date requiredDate;
-	
+	@Column(name="DELIVERED_DATE")
 	private Date deliveredDate;
-	
+	@Column(name="DELIVERY_ADDRESS")
 	private String deliveryAddress;
-	
+	@Column(name="DELIVERY_TOWN")
 	private String deliveryTown;
-	
+	@Column(name="DELIVERY_ID")
 	private String delivererId;
-	
+	@Column(name="ORDER_STATUS")
 	private String status;
 	
 	@OneToMany(fetch=FetchType.LAZY, cascade = CascadeType.ALL, mappedBy="poultryProduct")

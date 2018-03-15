@@ -1,5 +1,6 @@
 package zw.co.tengahuku.dto;
 
+import java.util.Date;
 import java.util.List;
 
 public class CustomerDTO {
@@ -18,6 +19,7 @@ public class CustomerDTO {
 	private AccountDTO account;
 	private UserDTO user;
 	private Boolean customerACompany;
+	private Date createdOn;
 
 	public CustomerDTO(Long id, String customerName, String contactName, String contactTitle, String deliveryAddress,
 			String city, String telephoneNumber, String emailAddress, Boolean enabled, List<PaymentDTO> payments,
@@ -36,6 +38,27 @@ public class CustomerDTO {
 		this.account = account;
 		this.user = user;
 		this.customerACompany=customerACompany;
+	}
+	
+	
+	public CustomerDTO(Long id, String customerName, String contactName, String contactTitle, String deliveryAddress,
+			String city, String telephoneNumber, String emailAddress, Boolean enabled, List<PaymentDTO> payments,
+			List<OrderDTO> orders, AccountDTO account, UserDTO user, Boolean customerACompany, Date createdOn) {
+		this.id = id;
+		this.customerName = customerName;
+		this.contactName = contactName;
+		this.contactTitle = contactTitle;
+		this.deliveryAddress = deliveryAddress;
+		this.city = city;
+		this.telephoneNumber = telephoneNumber;
+		this.emailAddress = emailAddress;
+		this.enabled = enabled;
+		this.payments = payments;
+		this.orders = orders;
+		this.account = account;
+		this.user = user;
+		this.customerACompany=customerACompany;
+		this.createdOn= createdOn;
 	}
 
 	public List<PaymentDTO> getPayments() {
@@ -149,7 +172,14 @@ public class CustomerDTO {
 	public void setCustomerACompany(Boolean customerACompany) {
 		this.customerACompany = customerACompany;
 	}
-	
+
+	public Date getCreatedOn() {
+		return createdOn;
+	}
+
+	public void setCreatedOn(Date createdOn) {
+		this.createdOn = createdOn;
+	}
 	
 
 }

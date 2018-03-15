@@ -21,6 +21,7 @@ import javax.persistence.Table;
 public class Bird {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
+	@Column(name="ID")
 	private Long id;
 	
 	@Column(name="BIRD_TYPE")
