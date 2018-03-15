@@ -31,28 +31,32 @@ public class Order {
 	private Long id;
 	
 	@ManyToOne(fetch=FetchType.LAZY)
-	@JoinColumn(name="CUSTOMER_ID")
+	@JoinColumn(name="CUSTOMER_ID",nullable=false)
 	private Customer customer;
 	
 	@ManyToOne(fetch=FetchType.LAZY)
-	@JoinColumn(name="EMPLOYEE_ID")
+	@JoinColumn(name="EMPLOYEE_ID",nullable=false)
 	private Employee employee;
 	
-	@Column(name="ORDER_DATE")
+	@Column(name="ORDER_DATE",nullable=false)
 	private Date orderDate;
 	
-	@Column(name="REQUIRED_DATE")
+	@Column(name="REQUIRED_DATE",nullable=false)
 	private Date requiredDate;
+	@Column(name="DELIVERY_REQUIRED",nullable=false)
+	private Boolean deliveryRequired;
 	@Column(name="DELIVERED_DATE")
 	private Date deliveredDate;
-	@Column(name="DELIVERY_ADDRESS")
+	@Column(name="DELIVERY_ADDRESS",nullable=false)
 	private String deliveryAddress;
-	@Column(name="DELIVERY_TOWN")
+	@Column(name="DELIVERY_TOWN",nullable=false)
 	private String deliveryTown;
 	@Column(name="DELIVERY_ID")
-	private String delivererId;
-	@Column(name="ORDER_STATUS")
+	private Long delivererId;
+	@Column(name="ORDER_STATUS",nullable=false)
 	private String status;
+	
+	private String updatedByUser;
 	
 	@OneToMany(fetch=FetchType.LAZY, cascade = CascadeType.ALL, mappedBy="poultryProduct")
     private List<OrderLine> orderLines;

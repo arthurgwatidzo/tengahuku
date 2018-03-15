@@ -8,19 +8,19 @@ public class PermissionDTO {
 	private String permissionShortName;
 	private String permissionDescription;
 	private int roleId;
-	private Date createdAt;
-	private Date updatedAt;
+	private Date createdOn;
+	private Date updatedOn;
 	
 	
 
-	public PermissionDTO(int id, String permissionShortName, String permissionDescription, int roleId, Date createdAt,
-			Date updatedAt) {
+	public PermissionDTO(int id, String permissionShortName, String permissionDescription, int roleId, Date createdOn,
+			Date updatedOn) {
 		this.id = id;
 		this.permissionShortName = permissionShortName;
 		this.permissionDescription = permissionDescription;
 		this.roleId = roleId;
-		this.createdAt = createdAt;
-		this.updatedAt = updatedAt;
+		this.createdOn = createdOn;
+		this.updatedOn = updatedOn;
 	}
 
 	public int getId() {
@@ -55,20 +55,20 @@ public class PermissionDTO {
 		this.roleId = roleId;
 	}
 
-	public Date getCreatedAt() {
-		return createdAt;
+	public Date getCreatedOn() {
+		return createdOn;
 	}
 
-	public void setCreatedAt(Date createdAt) {
-		this.createdAt = createdAt;
+	public void setCreatedOn(Date createdOn) {
+		this.createdOn = createdOn;
 	}
 
-	public Date getUpdatedAt() {
-		return updatedAt;
+	public Date getUpdatedOn() {
+		return updatedOn;
 	}
 
-	public void setUpdatedAt(Date updatedAt) {
-		this.updatedAt = updatedAt;
+	public void setUpdatedOn(Date updatedOn) {
+		this.updatedOn = updatedOn;
 	}
 
 }

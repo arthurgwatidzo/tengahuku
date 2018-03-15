@@ -28,17 +28,17 @@ public class Invoice {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	@Column(name="ID")
 	private Long id;
-	@Column(name="PRODUCT_NUMBER")
+	@Column(name="PRODUCT_NUMBER",nullable=false)
 	private int productNumber;
-	@Column(name="ORDER_REFERENCE")
+	@Column(name="ORDER_REFERENCE",nullable=false)
 	private String orderReference;
-	@Column(name="INVOICE_DATE")
+	@Column(name="INVOICE_DATE",nullable=false)
 	private Date invoiceDate;
-	@Column(name="QUANTITY")
+	@Column(name="QUANTITY",nullable=false)
 	private Long quantity;
-	@Column(name="PRICE_PER_ITEM")
+	@Column(name="PRICE_PER_ITEM",nullable=false)
 	private double pricePerItem;
-	@Column(name="AMOUNT")
+	@Column(name="AMOUNT",nullable=false)
 	private double amount;
 	
 	@OneToOne(fetch = FetchType.LAZY, mappedBy = "account", cascade = CascadeType.ALL)
